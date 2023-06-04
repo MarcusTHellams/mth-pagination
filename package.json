@@ -9,6 +9,10 @@
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/MarcusTHellams/mth-pagination",
+  "repository": {
+    "url": "https://github.com/MarcusTHellams/mth-pagination"
+  },
   "scripts": {
     "dev": "vite --open --port 3009",
     "format": "prettier . --write --ignore-path .gitignore && git update-index --again",
