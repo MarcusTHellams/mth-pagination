@@ -1,7 +1,7 @@
 {
   "name": "@mhellams/mth-pagination",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/mth-pagination-cjs.js",
   "module": "dist/mth-pagination-es.js",
   "browser": "dist/mth-pagination-umd.js",
