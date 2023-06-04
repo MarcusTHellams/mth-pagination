@@ -25,7 +25,7 @@ Using CDN
 	<head>
 		<script src="https://unpkg.com/@mhellams/mth-pagination"></script>
 		<script>
-		  const pagination = new mthPagination({
+		  const pagination = new mthPagination.MthPagination({
 			total: 1000,
 			page: 1,
 			siblings: 2,
