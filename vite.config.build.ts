@@ -11,16 +11,19 @@ import pkg from './package.json';
 export default defineConfig({
   plugins: [react()],
   build: {
+    emptyOutDir: false,
     minify: 'esbuild',
     lib: {
-      entry: './lib/index.ts',
-      formats: ['cjs', 'es'],
+      entry: './lib/index.umd.ts',
+      formats: ['umd'],
       fileName: (filename) => `${pkg.name.split('/')[1]}-${filename}.js`,
+      name: 'mthPagination'
     },
     rollupOptions: {
       external: [...Object.keys(pkg.peerDependencies)],
       output: {
         sourcemap: true,
+        exports: 'default'
       },
     },
   },

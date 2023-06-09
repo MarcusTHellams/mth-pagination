@@ -7,5 +7,6 @@
     "outDir": "./dist"
   },
   "include": ["lib"],
+  "exclude": ["lib/index.umd.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
